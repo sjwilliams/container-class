@@ -1,6 +1,6 @@
 {
   "name": "container-class",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Manage state-based CSS class names based on a common slug.",
   "main": "container-class.js",
   "scripts": {
