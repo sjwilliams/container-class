@@ -1,0 +1,19 @@
+{
+  "name": "container-class",
+  "version": "0.0.1",
+  "description": "Manage state-based CSS class names based on a common slug.",
+  "main": "container-class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjwilliams/container-class.git"
+  },
+  "author": "Josh Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjwilliams/container-class/issues"
+  },
+  "homepage": "https://github.com/sjwilliams/container-class"
+}
