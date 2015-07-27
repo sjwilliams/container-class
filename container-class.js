@@ -19,7 +19,7 @@
    */
   return function(el, prefix, value){
     el.classList.forEach(function(c){
-      if (c.lastIndexOf(prefix) + '-' === 0 ){
+      if (c.lastIndexOf(prefix + '-') === 0 ){
         el.classList.remove(c);
       }
     });
