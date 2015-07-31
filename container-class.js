@@ -18,7 +18,8 @@
    * @param  {String} value  Specific suffix value, after the '-' separator.
    */
   return function(el, prefix, value){
-    el.classList.forEach(function(c){
+    var classList = Array.prototype.slice.call(el.classList);
+    classList.forEach(function(c){
       if (c.lastIndexOf(prefix + '-') === 0 ){
         el.classList.remove(c);
       }
