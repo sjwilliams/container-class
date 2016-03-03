@@ -1,4 +1,10 @@
 /* globals define */
+
+/**
+ * @preserve container-class
+ * https://github.com/sjwilliams/container-class
+ * Copyright (c) 2016 Josh Williams; Licensed MIT
+ */
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory);
